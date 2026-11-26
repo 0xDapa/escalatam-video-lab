@@ -1,0 +1,6 @@
+node_modules/
+research/
+reels/out/
+*.wav
+/tmp/
+reels/public/caps/

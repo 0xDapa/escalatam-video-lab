@@ -1,0 +1,6 @@
+{"fps":30,"bpm":150,"duration":15,"beat":0.4,
+ "smash":0.0,"cruje":0.8,"pow":0.8,"title_out":2.4,
+ "phone_in":2.4,"scroll":[2.8,9.8],
+ "stamps":[{"t":4.0,"text":"PIDE POR WHATSAPP","sfx":"¡ZAS!"},{"t":6.4,"text":"CARRITO EN 1 TOQUE","sfx":"¡PUM!"},{"t":8.8,"text":"MENÚ CON PRECIOS","sfx":"¡ÑAM!"}],
+ "phone_out":10.0,"end_in":10.4,
+ "hits":[{"t":0.0,"i":"impact"},{"t":0.8,"i":"impact"},{"t":2.4,"i":"whoosh"},{"t":4.0,"i":"impact"},{"t":6.4,"i":"impact"},{"t":8.8,"i":"impact"},{"t":10.0,"i":"whoosh"},{"t":10.4,"i":"thump"},{"t":11.6,"i":"bell","n":76}]}

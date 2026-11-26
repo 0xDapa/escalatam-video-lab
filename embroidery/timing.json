@@ -1,0 +1,121 @@
+{
+ "fps": 30,
+ "bpm": 120,
+ "beat": 0.5,
+ "width": 1080,
+ "height": 1350,
+ "duration": 31.0,
+ "frames": 930,
+ "stops": [
+  {
+   "i": 0,
+   "arrive": 0.5,
+   "leave": 1.4,
+   "dips": [
+    0.65,
+    1.1
+   ]
+  },
+  {
+   "i": 1,
+   "arrive": 2.5,
+   "leave": 3.4,
+   "dips": [
+    2.65,
+    3.1
+   ]
+  },
+  {
+   "i": 2,
+   "arrive": 4.5,
+   "leave": 5.4,
+   "dips": [
+    4.65,
+    5.1
+   ]
+  },
+  {
+   "i": 3,
+   "arrive": 6.5,
+   "leave": 7.4,
+   "dips": [
+    6.65,
+    7.1
+   ]
+  },
+  {
+   "i": 4,
+   "arrive": 8.5,
+   "leave": 9.4,
+   "dips": [
+    8.65,
+    9.1
+   ]
+  },
+  {
+   "i": 5,
+   "arrive": 10.5,
+   "leave": 11.4,
+   "dips": [
+    10.65,
+    11.1
+   ]
+  },
+  {
+   "i": 6,
+   "arrive": 12.5,
+   "leave": 13.4,
+   "dips": [
+    12.65,
+    13.1
+   ]
+  },
+  {
+   "i": 7,
+   "arrive": 14.5,
+   "leave": 15.4,
+   "dips": [
+    14.65,
+    15.1
+   ]
+  },
+  {
+   "i": 8,
+   "arrive": 16.5,
+   "leave": 17.4,
+   "dips": [
+    16.65,
+    17.1
+   ]
+  },
+  {
+   "i": 9,
+   "arrive": 18.5,
+   "leave": 19.4,
+   "dips": [
+    18.65,
+    19.1
+   ]
+  }
+ ],
+ "reveal": {
+  "start": 19.4,
+  "rise_end": 22.6,
+  "glow_start": 21.6,
+  "glow_end": 23.9,
+  "end": 25.0
+ },
+ "endcard": {
+  "start": 25.0,
+  "title": 25.25,
+  "subtitle": 25.6,
+  "underline": [
+   25.9,
+   26.6
+  ],
+  "list_start": 26.4,
+  "list_stagger": 0.07,
+  "banner": 27.6,
+  "end": 31.0
+ }
+}

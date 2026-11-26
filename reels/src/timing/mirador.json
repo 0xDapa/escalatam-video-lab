@@ -1,0 +1,6 @@
+{"fps":30,"bpm":96,"duration":18,
+ "plan":[0.0,3.4],"title":1.2,"title_out":3.9,
+ "phone_in":4.1,"scroll":[4.6,12.2],
+ "notes":[{"t":5.6,"text":"Filtro de unidades","sub":"planta, dormitorios, precio"},{"t":7.9,"text":"Calculadora de hipoteca","sub":"cuota en tiempo real"},{"t":10.2,"text":"Visita por WhatsApp","sub":"mensaje ya escrito"}],
+ "phone_out":12.4,"night":[12.6,13.8],"end_in":13.6,
+ "hits":[{"t":0.0,"i":"tick"},{"t":0.4,"i":"tick"},{"t":0.8,"i":"tick"},{"t":1.2,"i":"marimba","n":67},{"t":4.1,"i":"thump"},{"t":5.6,"i":"marimba","n":74},{"t":7.9,"i":"marimba","n":76},{"t":10.2,"i":"marimba","n":79},{"t":12.6,"i":"whoosh"},{"t":13.6,"i":"bell","n":79}]}

@@ -1,0 +1,38 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Escalatam Video Lab — videos hechos con código</title>
+<style>
+@font-face{font-family:Fraunces;src:url(fonts/Fraunces.ttf);font-weight:100 900}
+@font-face{font-family:Outfit;src:url(fonts/Outfit.ttf);font-weight:100 900}
+@font-face{font-family:SpaceMono;src:url(fonts/SpaceMono-Regular.ttf)}
+*{box-sizing:border-box}body{margin:0;background:#f5f0e6;color:#1c1c1c;font:400 17px/1.5 Outfit,system-ui,sans-serif}
+header{max-width:1180px;margin:0 auto;padding:64px 24px 24px}h1{font:400 clamp(44px,7vw,92px)/1 Fraunces;letter-spacing:-.035em;margin:0}
+h1 i{color:#e4572e}header p{max-width:640px;font-size:19px}
+main{max-width:1180px;margin:0 auto;padding:0 24px 80px;display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:40px 28px}
+article video{width:100%;aspect-ratio:4/5;object-fit:cover;background:#1c1c1c;border-radius:6px;display:block}
+h2{font:400 30px/1.1 Fraunces;margin:16px 0 4px;letter-spacing:-.02em}.fmt,.tech,.qa{font:13px/1.5 SpaceMono,monospace}.fmt{color:#e4572e;margin:0}
+.qa{opacity:.75}a{color:inherit}.dl{display:inline-block;border:2px solid #1c1c1c;padding:6px 14px;text-decoration:none;font-weight:600}
+footer{max-width:1180px;margin:0 auto;padding:0 24px 60px;font-size:15px}
+</style></head><body>
+<header><h1>Videos hechos <i>a mano</i>,<br>con código.</h1>
+<p>Una película 3D de bordado (ingeniería inversa del estilo de @flxrnc) y cinco reels de venta para Instagram, X y Estados de WhatsApp. three.js + Remotion, sonido sintetizado sin samples, cada video medido frame a frame. Las marcas son demos conceptuales de <a href="https://0xdapa.github.io/escalatam-web-lab/">escalatam-web-lab</a>.</p>
+<p><a href="https://github.com/0xDapa/escalatam-video-lab">Código y método →</a></p></header>
+<main><article><video src="v/01-puntada-a-puntada.mp4" poster="v/01-puntada-a-puntada.jpg" controls playsinline preload="none"></video>
+<h2>Puntada a puntada</h2><p class="fmt">1080×1350 · 31 s · 37.35 MB</p><p>Réplica del estilo @flxrnc: un solo travelling macro 3D sobre lino; la aguja cose 10 de nuestras demos como parches bordados y al final revela el anillo completo.</p><p class="tech">three.js r187 · bordado procedural Canvas2D · BokehPass · renderAt(t) + captura</p>
+<p class="qa">QA: congelados no planeados 0 · -15.0 LUFS · pico -2.1 dBTP · yuv420p · faststart sí — <a href="qa/01-puntada-a-puntada_contact.jpg">contact sheet</a> · <a href="qa/01-puntada-a-puntada_motion.png">gráfico de movimiento</a></p>
+<a class="dl" href="v/01-puntada-a-puntada.mp4" download>Descargar MP4</a></article><article><video src="v/02-brasa-norte-reel.mp4" poster="v/02-brasa-norte-reel.jpg" controls playsinline preload="none"></video>
+<h2>Brasa Norte</h2><p class="fmt">1080×1920 · 20 s · 5.1 MB</p><p>Restaurante a la brasa. La llama se dibuja con una sola línea que hierve, el teléfono dibujado muestra el scroll real de la demo y tres notas a mano caen con impacto sakuga.</p><p class="tech">Remotion · stroke-dasharray · feTurbulence boil · Impact sakuga</p>
+<p class="qa">QA: congelados no planeados 0 · -14.8 LUFS · pico -3.3 dBTP · yuv420p · faststart sí — <a href="qa/02-brasa-norte-reel_contact.jpg">contact sheet</a> · <a href="qa/02-brasa-norte-reel_motion.png">gráfico de movimiento</a></p>
+<a class="dl" href="v/02-brasa-norte-reel.mp4" download>Descargar MP4</a></article><article><video src="v/03-escalatam-hecha-a-mano.mp4" poster="v/03-escalatam-hecha-a-mano.jpg" controls playsinline preload="none"></video>
+<h2>Escalatam — tu web, hecha a mano</h2><p class="fmt">1080×1920 · 24 s · 8.67 MB</p><p>Reel de la agencia: un boceto rough.js de una web se vuelve la web real, montaje de 14 demos cortado en cada beat y cierre «52 demos. Una es la tuya.»</p><p class="tech">Remotion · rough.js con semilla · montaje a 120 BPM</p>
+<p class="qa">QA: congelados no planeados 0 · -14.5 LUFS · pico -2.8 dBTP · yuv420p · faststart sí — <a href="qa/03-escalatam-hecha-a-mano_contact.jpg">contact sheet</a> · <a href="qa/03-escalatam-hecha-a-mano_motion.png">gráfico de movimiento</a></p>
+<a class="dl" href="v/03-escalatam-hecha-a-mano.mp4" download>Descargar MP4</a></article><article><video src="v/04-lua-clinica-reel.mp4" poster="v/04-lua-clinica-reel.jpg" controls playsinline preload="none"></video>
+<h2>Lúa Clínica</h2><p class="fmt">1080×1350 · 18 s · 6.33 MB</p><p>Medicina estética. Calma medida: todo muelle con damping 1.0, ramita botánica que crece, notas serif y el scroll real con reserva.</p><p class="tech">Remotion · Newsreader · muelle 1.0 · sin impactos</p>
+<p class="qa">QA: congelados no planeados 0 · -14.1 LUFS · pico -2.3 dBTP · yuv420p · faststart sí — <a href="qa/04-lua-clinica-reel_contact.jpg">contact sheet</a> · <a href="qa/04-lua-clinica-reel_motion.png">gráfico de movimiento</a></p>
+<a class="dl" href="v/04-lua-clinica-reel.mp4" download>Descargar MP4</a></article><article><video src="v/05-mirador-del-faro-reel.mp4" poster="v/05-mirador-del-faro-reel.jpg" controls playsinline preload="none"></video>
+<h2>Mirador del Faro</h2><p class="fmt">1080×1350 · 18 s · 5.77 MB</p><p>Inmobiliaria. El plano de la vivienda se traza con cotas, el teléfono muestra filtro de unidades y calculadora, y al final cae la noche y se encienden las ventanas.</p><p class="tech">Remotion · líneas precisas · cota animada · día→noche</p>
+<p class="qa">QA: congelados no planeados 0 · -14.5 LUFS · pico -2.1 dBTP · yuv420p · faststart sí — <a href="qa/05-mirador-del-faro-reel_contact.jpg">contact sheet</a> · <a href="qa/05-mirador-del-faro-reel_motion.png">gráfico de movimiento</a></p>
+<a class="dl" href="v/05-mirador-del-faro-reel.mp4" download>Descargar MP4</a></article><article><video src="v/06-brava-smash-reel.mp4" poster="v/06-brava-smash-reel.jpg" controls playsinline preload="none"></video>
+<h2>Brava Smash Club</h2><p class="fmt">1080×1920 · 15 s · 7.32 MB</p><p>Hamburguesería a 150 BPM: sellos con muelle 0.5, humo y rótulos manga (¡ZAS! ¡PUM! ¡ÑAM!), temblor de cámara solo en el golpe.</p><p class="tech">Remotion · sakuga · Bowlby One · rejilla de beats</p>
+<p class="qa">QA: congelados no planeados 0 · -14.4 LUFS · pico -3.2 dBTP · yuv420p · faststart sí — <a href="qa/06-brava-smash-reel_contact.jpg">contact sheet</a> · <a href="qa/06-brava-smash-reel_motion.png">gráfico de movimiento</a></p>
+<a class="dl" href="v/06-brava-smash-reel.mp4" download>Descargar MP4</a></article></main>
+<footer>escalatam · webs hechas a mano</footer></body></html>

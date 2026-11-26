@@ -1,0 +1,6 @@
+{"fps":30,"bpm":80,"duration":18,
+ "sprig":[0.0,3.0],"title":1.0,"title_out":3.6,
+ "phone_in":3.8,"scroll":[4.4,12.2],
+ "notes":[{"t":5.4,"text":"Reserva tu valoración en línea"},{"t":7.8,"text":"Antes y después, sin filtros"},{"t":10.2,"text":"WhatsApp con el mensaje listo"}],
+ "phone_out":12.4,"end_in":13.0,
+ "hits":[{"t":1.0,"i":"marimba","n":69},{"t":1.4,"i":"marimba","n":73},{"t":3.8,"i":"marimba","n":64},{"t":5.4,"i":"bell","n":76},{"t":7.8,"i":"bell","n":78},{"t":10.2,"i":"bell","n":81},{"t":13.0,"i":"marimba","n":69},{"t":14.4,"i":"bell","n":81}]}
